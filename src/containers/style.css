@@ -1,0 +1,61 @@
+.margin{
+    text-align: center;
+}
+
+.contained-btn{
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
+
+.fieldSet{
+    text-align: center;
+}
+
+.radioGroup{
+  width: 100%;
+  margin-left: 40%;
+}
+
+@media screen and (max-width: 480px) {
+    .radioGroup {
+      margin-left: 15%;
+    }
+  }
+
+  .checkBox{
+    width: 100%;
+    margin-left: 19%;
+  }
+
+  .skills{
+      margin-left: 19%;
+  }
+
+  .label1{
+      margin-left: 16%;
+  }
+
+  .link{
+    color: white;
+    text-decoration: none;
+  }
+
+  .logout{
+     padding-left: 80%;
+
+  }
+  @media screen and (max-width: 870px) {
+    .logout {
+     padding-left: 60%;
+   
+      
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logout {
+     padding-left: 20%;
+     font-size: smaller;
+      
+    }
+  }
